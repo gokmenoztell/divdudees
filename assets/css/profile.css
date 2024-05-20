@@ -1,0 +1,62 @@
+.L-group:hover {
+    background-color: transparent !important;
+}
+a {
+    text-decoration: none;
+}
+.social a img {
+    width: 50px !important;
+}
+.list-group-item {
+    border: none;
+}
+
+.bgtransparent {
+    box-shadow: 0px 5px 20px 10px #000;
+}
+
+.list-group{
+    --bs-list-group-item-padding-x: 0.1rem;
+}
+.trapezoid{
+    border-bottom: 12px solid #202833;
+border-left: 12px solid transparent;
+border-right: 12px solid transparent;
+transform: rotateZ(-313deg);
+position: absolute;
+right: -8px;
+top: -2px;
+}
+
+.treeduts span{
+    display: block;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    z-index: 1;
+    background-color: white;
+}
+#trapezoid-radius{
+    border-top-left-radius: 5px; 
+    
+}
+#tp{
+    border-bottom: 8px solid #000;
+    border-left: 8px solid transparent;
+    border-right: 11px solid transparent;
+    transform: rotateZ(-313deg);
+    position: absolute;
+    right: -8px;
+    top: 0px;
+}
+@media screen and (max-width:991px) {
+    .wrapper{
+      width: 680px;
+      background: transparent;
+      border-radius: 10px;
+     /* box-shadow: 0 15px 40px rgba(0,0,0,0.12);*/
+    }
+    .responsive-img{
+        height: 190px;
+           }
+  }
